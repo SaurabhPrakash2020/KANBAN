@@ -15,7 +15,7 @@ const KanbanBoard = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://api.quicksell.co/v1/internal/frontend-assignment');
+      const response = await fetch('https://api.quicksell.co/v1/internal/frontend-assignment');
       const data = await response.json();
       const ticketsArray = data.tickets || [];
       const userarray=data.users || [];
