@@ -1,0 +1,82 @@
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color:whitesmoke;
+}
+
+.label-container {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease;
+  max-width: 25%; /* Adjust the max-width as needed */
+  display: flex;
+  align-items: center;
+}
+
+
+.label-container:hover {
+  background-color: #f0f0f0;
+}
+
+.label-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.group {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.group h2 {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.ticket {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.ticket p {
+  margin: 2px 0;
+  font-size: 12px;
+}
+
+.group:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.ticket:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
