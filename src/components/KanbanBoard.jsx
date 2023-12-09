@@ -1,4 +1,3 @@
-//kanan board
 import React, { useState, useEffect } from 'react';
 import KanbanLabels from './KanbanLabels';
 import KanbanCards from './KanbanCards';
